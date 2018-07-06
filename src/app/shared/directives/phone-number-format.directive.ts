@@ -12,7 +12,7 @@ export class PhoneNumberDirective {
     onModelChange(event: string): void {
         if (event) {
             this.element.nativeElement.value =
-                this.transform(event).slice(0, 14);
+                this.transform(event).slice(0, 15);
         }
     }
 
